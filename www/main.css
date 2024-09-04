@@ -28,7 +28,7 @@ img.dot {
   flex: 1 0 0;
 }
 .top .abtme {
-  width: parent;
+  width: 500px;
 }
 .top .abtme span {
   color: #FFF;
@@ -37,6 +37,7 @@ img.dot {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  width: 500px;
 }
 .top .site {
   font-size: 96px;
@@ -101,14 +102,11 @@ div.content {
   
     z-index: -1;
   
-    opacity: 40%;
+    /* opacity: 40%; */
     border: 0;
     margin: 0;
   }
 
-  .top .abtme {
-    width: parent;
-  }
   .top .abtme span {
     color: #FFF;
     font-family: Urbanist;
@@ -127,7 +125,6 @@ div.content {
   }
 
   .topp {
-
     font-family: "Urbanist", sans-serif;
     font-optical-sizing: auto;
     font-weight: 900;
@@ -143,7 +140,13 @@ div.content {
     padding: 0px 30px;
     flex: 1 0 0;
   }
+
+
+  .top .abtme {
+    width: 80vw;
+  }
 }
+
 .contact .contant-ghicon {
   background-image: url('data:image/svg+xml <svg width="1278" height="720" viewBox="0 0 1278 720" fill="none" xmlns="http://www.w3.org/2000/svg">  <rect width="1278" height="720" fill="url(#paint0_linear_1_328)"/>  <defs><linearGradient id="paint0_linear_1_328" x1="639" y1="383" x2="639" y2="1115.5" gradientUnits="userSpaceOnUse"><stop stop-opacity="0"/><stop offset="1" stop-color="white"/></linearGradient></defs></svg>');
 }
@@ -185,7 +188,7 @@ span.blurb {
 
   z-index: -1;
 
-  opacity: 40%;
+  /* opacity: 40%; */
   border: 0;
   margin: 0;
 }
